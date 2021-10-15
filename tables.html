@@ -271,11 +271,12 @@
                 <p><b>Submit Button</b></p><br />
                 <p>Subscribe to our email list:</p>
                 <input type="text" name="email" />
-                <input type="submit" name="subscribe" value="Subscribe" <br />
-                <p>Subscribe to our email list:</p>
-                <input type="text" name="email" />
-                <input type="image" src="images/subscribe.jpg" width="100" height="20" /><br />
-                <button><img src="images/add.gif" alt="add" width="10" height="10" /> Add</button>
+                <input type="submit" name="subscribe" value="Subscribe">
+                <br />
+                <p>Subscribe to our email list:</p> <br>
+                <input type="text" name="email" /> <br>
+                <input type="image" src="assets/images/de-voice logo.png" width="100" height="20" /><br />
+                <button><img src="assets/images/de-voice logo.png" alt="add" width="10" height="10" /> Add</button> <br>
                 <input type="hidden" name="bookmark" value="lyrics" /><br />
                 <label>Age: <input type="text" name="age" /></label><br />
                 Gender: <input id="female" type="radio" name="gender" value="f">
@@ -313,8 +314,25 @@
                 <p>Search:</p>
                 <input type="search" name="search" placeholder="Enter keyword" />
                 <input type="submit" value="Search" /><br />
+                <h2>Example</h2>
+                <form action="http://www.example.com/review.php" method="get">
+                    <fieldset>
+                        <legend> Your Details: </legend> <label> Name: <input type="text" name="name" size="30"
+                                maxlength="100"> </label> <br /> <label> Email: <input type="email" name="email"
+                                size="30" maxlength="100"> </label> <br />
+                    </fieldset> <br />
+                    <fieldset>
+                        <legend> Your Review: </legend>
+                        <p> <label for="hear-about"> How did you hear about us? </label> <select name="referrer"
+                                id="hear-about">
+                                <option value="google">Google</option>
+                                <option value="friend">Friend</option>
+                                <option value="advert">Advert</option>
+                                <option value="other">Other</option>
+                            </select>
+                </form>
             </form>
-        </form>
+            
 
 </body>
 
