@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <ul>
@@ -17,171 +19,303 @@
     </header>
     <h1>Tables</h1>
     <h2>Basic table structure</h2>
-    <table>  
-        <tr>    
-            <td>15</td>    
-            <td>15</td>    
-            <td>30</td>  
-        </tr>  <tr>    
-            <td>45</td>    
-            <td>60</td>    
-            <td>45</td>  
-        </tr>  <tr>    
-            <td>60</td>    
-            <td>90</td>    
-            <td>90</td>  
-        </tr> 
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
     </table>
     <h2>table heading</h2>
-    <table>  
-        <tr>    
-            <th></th>    
-            <th scope="col">Saturday</th>    
-            <th scope="col">Sunday</th>  
-        </tr>  
-        <tr>    
-            <th scope="row">Tickets sold:</th>    <td>120</td>    
-            <td>135</td>  
-        </tr> 
-         <tr>    
-             <th scope="row">Total sales:</th>    <td>$600</td>    
-             <td>$675</td>  
-            </tr> 
-        </table>
-        <h2>Spanning column</h2>
-            <table>  
-                <tr>    
-                    <th></th>    
-                    <th>9am</th>    
-                    <th>10am</th>    
-                    <th>11am</th>    
-                    <th>12am</th>  
-                </tr>  
-                <tr>    
-                    <th>Monday</th>    
-                    <td colspan="2">Geography</td>    <td>Math</td>    
-                    <td>Art</td>  
-                </tr>  
-                <tr>    
-                    <th>Tuesday</th>    
-                    <td colspan="3">Gym</td>    <td>Home Ec</td> 
-                </tr> 
-            </table> 
-            <h2>Spanning row</h2>
-            <table>  
-                <tr>    
-                    <th></th>    
-                    <th>ABC</th>    
-                    <th>BBC</th>    
-                    <th>CNN</th>  
-                </tr>  
-                <tr>    
-                    <th>6pm - 7pm</th>    
-                    <td rowspan="2">Movie</td>    <td>Comedy</td>    
-                    <td>News</td>  
-                </tr>  
-                <tr>    
-                    <th>7pm - 8pm</th>    
-                    <td>Sport</td>    
-                    <td>Current Affairs</td>  
-                </tr> 
-            </table> 
-            <h2>Long tables</h2>
-            <table>  
-                <thead>    
-                    <tr>      
-                        <th>Date</th>      
-                        <th>Income</th>      <th>Expenditure</th>    
-                    </tr>  
-                </thead>  
-                <tbody>    
-                    <tr>      
-                        <th>1st January</th>      <td>250</td>      
-                        <td>36</td>    
-                    </tr>    
-                    <tr>      
-                        <th>2nd January</th>      <td>285</td>      
-                        <td>48</td>    
-                    </tr>    
-                    <!-- additional rows as above -->    
-                    <tr>      
-                        <th>31st January</th>      <td>129</td>      
-                        <td>64</td>     
-                    </tr>  
-                </tbody>  
-                <tfoot>    
-                    <tr>      
-                        <td></td>      
-                        <td>7824</td>      
-                        <td>1241</td>    
-                    </tr>  
-                </tfoot> 
-            </table>
-            <h2>width and spacing</h2>
-            <table width="400" cellpadding="10" cellspacing="5">  
-                <tr>    
-                    <th width="150"></th>    <th>Withdrawn</th>    
-                    <th>Credit</th>    
-                    <th width="150">Balance</th>  
-                </tr>  
-                <tr>    
-                    <th>January</th>    
-                    <td>250.00</td>    
-                    <td>660.50</td>    
-                    <td>410.50</td>  
-                </tr>  
-                <tr>    
-                    <th>February</th>    
-                    <td>135.55</td>    
-                    <td>895.20</td>    
-                    <td>1170.15</td>  
-                </tr> 
-            </table> 
-            <h2>border and background</h2>
-            <table border="2" bgcolor="#efefef">  <tr>    
-                <th width="150"></th>    <th>Withdrawn</th>    
-                <th>Credit</th>    
-                <th width="150" bgcolor="#cccccc">Balance</th>  
-            </tr>  
-            <tr>    
-                <th>January</th>    
-                <td>250.00</td>    
-                <td>660.50</td>    
-                <td bgcolor="#cccccc">410.50</td>  
-            </tr>  
-            <tr>    
-                <th>February</th>    
-                <td>135.55</td>    
-                <td>895.20</td>    
-                <td bgcolor="#cccccc">1170.15</td>  
-            </tr> 
-        </table> 
-        <h2>Example</h2>
-        <table>   
-            <thead>    
-                <tr>     
-                    <th></th>     
-                    <th scope="col">Home starter hosting</th>     
-                    <th scope="col">Premium business hosting</th>      
-                </tr>   
-            </thead>   
-            <tbody>    
-                <tr>     
-                    <th scope="row">Disk space</th>     
-                    <td>250mb</td>     
-                    <td>1gb</td>    
-                </tr>    
-                <tr>     
-                    <th scope="row">Bandwidth</th>     <td>5gb per month</td>     <td>50gb per month</td>    
-                </tr>        
-                <!-- more rows like the two above here -->   
-            </tbody>   
-            <tfoot>    
-                <tr>     
-                    <td></td>     
-                    <td colspan="2">Sign up now and save 10%!</td>    
-                </tr>   
-            </tfoot>  
-        </table> 
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table>
+    <h2>Spanning column</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+    <h2>Spanning row</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+    </table>
+    <h2>Long tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr>
+            <!-- additional rows as above -->
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>width and spacing</h2>
+    <table width="400" cellpadding="10" cellspacing="5">
+        <tr>
+            <th width="150"></th>
+            <th>Withdrawn</th>
+            <th>Credit</th>
+            <th width="150">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td>410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td>1170.15</td>
+        </tr>
+    </table>
+    <h2>border and background</h2>
+    <table border="2" bgcolor="#efefef">
+        <tr>
+            <th width="150"></th>
+            <th>Withdrawn</th>
+            <th>Credit</th>
+            <th width="150" bgcolor="#cccccc">Balance</th>
+        </tr>
+        <tr>
+            <th>January</th>
+            <td>250.00</td>
+            <td>660.50</td>
+            <td bgcolor="#cccccc">410.50</td>
+        </tr>
+        <tr>
+            <th>February</th>
+            <td>135.55</td>
+            <td>895.20</td>
+            <td bgcolor="#cccccc">1170.15</td>
+        </tr>
+    </table>
+    <h2>Example</h2>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Home starter hosting</th>
+                <th scope="col">Premium business hosting</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Disk space</th>
+                <td>250mb</td>
+                <td>1gb</td>
+            </tr>
+            <tr>
+                <th scope="row">Bandwidth</th>
+                <td>5gb per month</td>
+                <td>50gb per month</td>
+            </tr>
+            <!-- more rows like the two above here -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="2">Sign up now and save 10%!</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h1>Forms</h1>
+    <h2>Form structure</h2>
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.
+        </p>
+        <h2>text input</h2>
+        <form action="http://www.example.com/login.php">
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+            <h2>password input</h2>
+            <form action="http://www.example.com/login.php">
+                <p>Username: <input type="text" name="guyname" size="20" maxlength="50" />
+                </p>
+                <p>Password: <input type="password" name="accesscode" size="15" maxlength="30" />
+                </p>
+                <p> <b>Text Area</b> </p>
+                <p>What did you think of this site?</p>
+                <textarea name="comments" cols="20" rows="4">put your yarnings...</textarea>
+                <p>Please select your favorite genre:
+                    <br />
+                    <input type="radio" name="genre" value="rock" checked="checked" />
+                    Rock
+                    <input type="radio" name="genre" value="pop" />
+                    Pop
+                    <input type="radio" name="genre" value="blues" />
+                    Blues
+                    <input type="radio" name="genre" value="jazz" />
+                    Jazz
+                </p>
+                <p>Please select your favorite music service(s):
+                    <br />
+                    <input type="checkbox" name="service" value="itunes" checked="checked" />
+                    iTunes
+                    <input type="checkbox" name="service" value="lastfm" />
+                    Last.fm
+                    <input type="checkbox" name="service" value="spotify" />
+                    Spotify
+                </p>
+                <input type="checkbox" name="service" value="Apple music" />
+                Apple music
+                <input type="checkbox" name="service" value="Youtube" />
+                Youtube
+                <p>What device do you listen to music on?</p>
+                <select name="devices">
+                    <option value="ipod">iPod</option>
+                    <option value="radio">Radio</option>
+                    <option value="computer">Computer</option>
+                    <option value="phone">phone</option>
+                    <option value="mp3 player">mp3 player</option>
+                </select>
+                <p>Do you play any of the following instruments?
+                    (You can select more than one option by holding
+                    down control on a PC or command key on a Mac
+                    while selecting different options.)</p>
+                <select name="instruments" size="4" multiple="multiple">
+                    <option value="guitar" selected="selected">
+                        Guitar</option>
+                    <option value="drums">Drums</option>
+                    <option value="keyboard" selected="selected">Keyboard</option>
+                    <option value="bass">Bass</option>
+                    <option value="trumpet">trumpet</option>
+                </select>
+                <p><b>Fine input box</b></p>
+                <p>Upload your song in MP3 format:</p>
+                <input type="file" name="user-song" /><br />
+                <input type="submit" value="Upload" />
+                <p><b>Submit Button</b></p><br />
+                <p>Subscribe to our email list:</p>
+                <input type="text" name="email" />
+                <input type="submit" name="subscribe" value="Subscribe" <br />
+                <p>Subscribe to our email list:</p>
+                <input type="text" name="email" />
+                <input type="image" src="images/subscribe.jpg" width="100" height="20" /><br />
+                <button><img src="images/add.gif" alt="add" width="10" height="10" /> Add</button>
+                <input type="hidden" name="bookmark" value="lyrics" /><br />
+                <label>Age: <input type="text" name="age" /></label><br />
+                Gender: <input id="female" type="radio" name="gender" value="f">
+                <label for="female">Female</label>
+                <input id="male" type="radio" name="gender" value="m">
+                <label for="male">Male</label><br />
+                <fieldset>
+                    <legend>Contact details</legend>
+                    <label>Email:<br />
+                        <input type="text" name="email" /></label><br />
+                    <label>Mobile:<br />
+                        <input type="text" name="mobile" /></label><br />
+                    <label>Telephone:<br />
+                        <input type="text" name="telephone" /></label><br />
+                    <label>Office :<br />
+                        <input type="text" name="Office " /></label><br />
+                </fieldset><br />
+                <label for="username">Username:</label>
+                <input type="text" name="username" required="required" /></title><br />
+                <label for="password">Password:</label>
+                <input type="password" name="password" required="required" /><br />
+                <input type="submit" value="Submit" /><br />
+                <label for="username">Departure date:</label>
+                <input type="date" name="depart" />
+                <input type="submit" value="Submit" /><br />
+                <p>Please enter your email address:</p>
+                <input type="email" name="email" />
+                <input type="submit" value="Submit" /<br />
+                <p>Please enter your website address:</p>
+                <input type="url" name="website" />
+                <input type="submit" value="Submit" /<br />
+                <p>Search:</p>
+                <input type="search" name="search" />
+                <input type="submit" value="Search" /><br />
+                <p>Search:</p>
+                <input type="search" name="search" placeholder="Enter keyword" />
+                <input type="submit" value="Search" /><br />
+            </form>
+        </form>
+
 </body>
+
 </html>
