@@ -1,0 +1,42 @@
+body { 
+    font-family: Arial, Verdana, sans-serif;
+}  
+h2 { 
+    color: #ee3e80;
+} 
+p { 
+    color: #166e26;
+}
+body h3  {
+     border: 1px solid blue;
+     background-color: rgb(176, 86, 26);       
+    color: rgb(33, 65, 113);   
+   }
+    {
+     font-family: Arial, Verdana, sans-serif;
+    }
+     h1 {
+          font-family: "Courier New", monospace;
+        }
+         i {
+              color: green;
+            }
+             i { color: red;
+            }
+             b { color: pink;
+            }
+             p b {
+                  color: blue !important;
+                }
+                 p b {
+                      color: violet;
+                    }
+                     p#intro {
+                          font-size: 100%;
+                        }
+                         p {
+                              font-size: 75%;
+                            }
+body { font-family: Arial, Verdana, sans-serif; color: #665544; padding: 10px;} 
+html, list{.page { border: 1px solid #665544; background-color: #cd2121;  padding: inherit;} 
+* { font-family: Arial, Verdana, sans-serif;} h4 { font-family: "Courier New", monospace;} h4 i { color: green;} h4 i { color: red;} h4 b { color: pink;} h4 p b { color: blue !important;} h4 p b { color: violet;} p#intro { font-size: 100%;} h4 p { font-size: 75%;}
