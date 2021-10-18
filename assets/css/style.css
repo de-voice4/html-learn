@@ -40,3 +40,21 @@ body h3  {
 body { font-family: Arial, Verdana, sans-serif; color: #665544; padding: 10px;} 
 html, list{.page { border: 1px solid #665544; background-color: #cd2121;  padding: inherit;} 
 * { font-family: Arial, Verdana, sans-serif;} h4 { font-family: "Courier New", monospace;} h4 i { color: green;} h4 i { color: red;} h4 b { color: pink;} h4 p b { color: blue !important;} h4 p b { color: violet;} p#intro { font-size: 100%;} h4 p { font-size: 75%;}
+h4 {
+     font-family: Arial, Verdana, sans-serif;
+     color: #665544;
+     padding: 10px;}
+     h6 {
+          border: 10px solid #665544;
+          background-color: #6a1212;
+          padding: inherit;}
+          /* color name */
+          h6 {
+          color: DarkCyan;}
+          /* hex code */
+          h6 {
+          color: #ee3e80;}
+          /* rgb value */
+          p {
+          color: rgb(100,100,90);}
+     
