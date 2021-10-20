@@ -44,17 +44,5 @@ h4 {
      font-family: Arial, Verdana, sans-serif;
      color: #665544;
      padding: 10px;}
-     h6 {
-          border: 10px solid #665544;
-          background-color: #6a1212;
-          padding: inherit;}
-          /* color name */
-          h6 {
-          color: DarkCyan;}
-          /* hex code */
-          h6 {
-          color: #ee3e80;}
-          /* rgb value */
-          p {
-          color: rgb(100,100,90);}
+    
      
